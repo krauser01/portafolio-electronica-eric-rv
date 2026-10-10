@@ -1,0 +1,56 @@
+# ==========================================
+# Sistema Operativo (Windows)
+# ==========================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ==========================================
+# Editores de Texto / IDEs
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==========================================
+# KiCad (Diseño de PCB)
+# ==========================================
+# Archivos de backup y autosave
+*.kicad_prl
+*-backups/
+*.kicad_pcb-bak
+*.sch-bak
+# Archivos de salida de fabricación (se suben solo como Releases o ZIPs)
+gerbers/
+plot/
+# Archivos de netlist y reportes temporales
+*.net
+*.cmp
+*.sol
+
+# ==========================================
+# LTspice (Simulación)
+# ==========================================
+# Archivos de salida cruda (pueden pesar GB)
+*.raw
+*.log
+*.net
+# Archivos de opamp y modelos temporales
+*.plt
+*.fft
+
+# ==========================================
+# Compilación / Firmware (C/C++, PlatformIO, STM32)
+# ==========================================
+build/
+Debug/
+Release/
+*.o
+*.obj
+*.elf
+*.hex
+*.bin
+*.map
